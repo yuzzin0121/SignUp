@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		6135A9DA2B87B5D900831B21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9D92B87B5D900831B21 /* AppDelegate.swift */; };
 		6135A9DC2B87B5D900831B21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9DB2B87B5D900831B21 /* SceneDelegate.swift */; };
-		6135A9DE2B87B5D900831B21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9DD2B87B5D900831B21 /* ViewController.swift */; };
+		6135A9DE2B87B5D900831B21 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9DD2B87B5D900831B21 /* SignUpViewController.swift */; };
 		6135A9E12B87B5D900831B21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6135A9DF2B87B5D900831B21 /* Main.storyboard */; };
 		6135A9E32B87B5DC00831B21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6135A9E22B87B5DC00831B21 /* Assets.xcassets */; };
 		6135A9E62B87B5DC00831B21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6135A9E42B87B5DC00831B21 /* LaunchScreen.storyboard */; };
+		6135A9F12B87B64300831B21 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9F02B87B64300831B21 /* BaseView.swift */; };
+		6135A9F62B87B6BD00831B21 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9F52B87B6BD00831B21 /* SignUpView.swift */; };
+		6135A9F82B87B7D500831B21 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9F72B87B7D500831B21 /* Observable.swift */; };
+		6135A9FA2B87B8C600831B21 /* ValidationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9F92B87B8C600831B21 /* ValidationViewModel.swift */; };
+		6135A9FC2B87B92A00831B21 /* InputTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135A9FB2B87B92A00831B21 /* InputTextField.swift */; };
+		6135A9FF2B87B99100831B21 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6135A9FE2B87B99100831B21 /* SnapKit */; };
+		6135AA012B87B99100831B21 /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 6135AA002B87B99100831B21 /* SnapKit-Dynamic */; };
+		6135AA032B87B9A600831B21 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135AA022B87B9A600831B21 /* BaseViewController.swift */; };
+		6135AA062B87BAAC00831B21 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6135AA052B87BAAC00831B21 /* UILabel+Extension.swift */; };
+		6135AA092B87BE5C00831B21 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6135AA082B87BE5C00831B21 /* IQKeyboardManagerSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6135A9D62B87B5D900831B21 /* SignUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SignUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6135A9D92B87B5D900831B21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6135A9DB2B87B5D900831B21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		6135A9DD2B87B5D900831B21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6135A9DD2B87B5D900831B21 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		6135A9E02B87B5D900831B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6135A9E22B87B5DC00831B21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6135A9E52B87B5DC00831B21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6135A9E72B87B5DC00831B21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6135A9F02B87B64300831B21 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		6135A9F52B87B6BD00831B21 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		6135A9F72B87B7D500831B21 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		6135A9F92B87B8C600831B21 /* ValidationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewModel.swift; sourceTree = "<group>"; };
+		6135A9FB2B87B92A00831B21 /* InputTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTextField.swift; sourceTree = "<group>"; };
+		6135AA022B87B9A600831B21 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		6135AA052B87BAAC00831B21 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6135A9FF2B87B99100831B21 /* SnapKit in Frameworks */,
+				6135AA012B87B99100831B21 /* SnapKit-Dynamic in Frameworks */,
+				6135AA092B87BE5C00831B21 /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +76,78 @@
 		6135A9D82B87B5D900831B21 /* SignUp */ = {
 			isa = PBXGroup;
 			children = (
+				6135AA042B87BAA100831B21 /* Extension */,
+				6135A9F32B87B6A300831B21 /* Component */,
+				6135A9EF2B87B63900831B21 /* Base */,
+				6135A9EE2B87B62E00831B21 /* ViewModel */,
+				6135A9ED2B87B62A00831B21 /* Model */,
+				6135A9F22B87B68E00831B21 /* ViewControllers */,
 				6135A9D92B87B5D900831B21 /* AppDelegate.swift */,
 				6135A9DB2B87B5D900831B21 /* SceneDelegate.swift */,
-				6135A9DD2B87B5D900831B21 /* ViewController.swift */,
 				6135A9DF2B87B5D900831B21 /* Main.storyboard */,
 				6135A9E22B87B5DC00831B21 /* Assets.xcassets */,
 				6135A9E42B87B5DC00831B21 /* LaunchScreen.storyboard */,
 				6135A9E72B87B5DC00831B21 /* Info.plist */,
 			);
 			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6135A9ED2B87B62A00831B21 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6135A9EE2B87B62E00831B21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9F72B87B7D500831B21 /* Observable.swift */,
+				6135A9F92B87B8C600831B21 /* ValidationViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		6135A9EF2B87B63900831B21 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9F02B87B64300831B21 /* BaseView.swift */,
+				6135AA022B87B9A600831B21 /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		6135A9F22B87B68E00831B21 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9F42B87B6B100831B21 /* SignUp */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6135A9F32B87B6A300831B21 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9FB2B87B92A00831B21 /* InputTextField.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		6135A9F42B87B6B100831B21 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				6135A9DD2B87B5D900831B21 /* SignUpViewController.swift */,
+				6135A9F52B87B6BD00831B21 /* SignUpView.swift */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		6135AA042B87BAA100831B21 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6135AA052B87BAAC00831B21 /* UILabel+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +166,11 @@
 			dependencies = (
 			);
 			name = SignUp;
+			packageProductDependencies = (
+				6135A9FE2B87B99100831B21 /* SnapKit */,
+				6135AA002B87B99100831B21 /* SnapKit-Dynamic */,
+				6135AA082B87BE5C00831B21 /* IQKeyboardManagerSwift */,
+			);
 			productName = SignUp;
 			productReference = 6135A9D62B87B5D900831B21 /* SignUp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +199,10 @@
 				Base,
 			);
 			mainGroup = 6135A9CD2B87B5D900831B21;
+			packageReferences = (
+				6135A9FD2B87B99100831B21 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6135AA072B87BE5C00831B21 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = 6135A9D72B87B5D900831B21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +230,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6135A9DE2B87B5D900831B21 /* ViewController.swift in Sources */,
+				6135A9FC2B87B92A00831B21 /* InputTextField.swift in Sources */,
+				6135A9DE2B87B5D900831B21 /* SignUpViewController.swift in Sources */,
+				6135AA062B87BAAC00831B21 /* UILabel+Extension.swift in Sources */,
+				6135A9F62B87B6BD00831B21 /* SignUpView.swift in Sources */,
 				6135A9DA2B87B5D900831B21 /* AppDelegate.swift in Sources */,
 				6135A9DC2B87B5D900831B21 /* SceneDelegate.swift in Sources */,
+				6135AA032B87B9A600831B21 /* BaseViewController.swift in Sources */,
+				6135A9F82B87B7D500831B21 /* Observable.swift in Sources */,
+				6135A9FA2B87B8C600831B21 /* ValidationViewModel.swift in Sources */,
+				6135A9F12B87B64300831B21 /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +462,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6135A9FD2B87B99100831B21 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		6135AA072B87BE5C00831B21 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6135A9FE2B87B99100831B21 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6135A9FD2B87B99100831B21 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6135AA002B87B99100831B21 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6135A9FD2B87B99100831B21 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = "SnapKit-Dynamic";
+		};
+		6135AA082B87BE5C00831B21 /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6135AA072B87BE5C00831B21 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6135A9CE2B87B5D900831B21 /* Project object */;
 }

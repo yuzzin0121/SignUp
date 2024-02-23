@@ -15,10 +15,12 @@ class SignUpView: BaseView {
     let nicknameTextField = InputTextField()
     let locationTextField = InputTextField()
     let recommendCodeTextField = InputTextField()
+    let messageLabel = UILabel()
+    
     let signupButton = UIButton()
     
     override func configureHierarchy() {
-        [titleLabel, emailTextField, passwordTextField, nicknameTextField, locationTextField, recommendCodeTextField, signupButton].forEach {
+        [titleLabel, emailTextField, passwordTextField, nicknameTextField, locationTextField, recommendCodeTextField, messageLabel, signupButton].forEach {
             addSubview($0)
         }
     }
@@ -60,8 +62,14 @@ class SignUpView: BaseView {
             make.centerX.equalToSuperview()
             make.height.equalTo(44)
         }
+        messageLabel.snp.makeConstraints { make in
+            make.top.equalTo(recommendCodeTextField.snp.bottom).offset(6)
+            make.centerX.equalToSuperview()
+            make.height.equalTo(14)
+        }
+        
         signupButton.snp.makeConstraints { make in
-            make.top.equalTo(recommendCodeTextField.snp.bottom).offset(40)
+            make.top.equalTo(messageLabel.snp.bottom).offset(40)
             make.width.equalTo(300)
             make.centerX.equalToSuperview()
             make.height.equalTo(44)
@@ -69,6 +77,7 @@ class SignUpView: BaseView {
     }
     override func configureView() {
         titleLabel.design(text: "회원가입")
+        messageLabel.design(text: "", font: .systemFont(ofSize: 14), textColor: .red, textAlignment: .left)
         
         emailTextField.placeholder = "이메일 주소"
         passwordTextField.placeholder = "비밀번호"

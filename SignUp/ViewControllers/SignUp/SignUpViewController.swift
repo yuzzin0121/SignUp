@@ -16,6 +16,12 @@ class SignUpViewController: UIViewController {
         
         // 텍스트필드 액션 설정
         setTextFieldAction()
+        mainView.signupButton.addTarget(self, action: #selector(signupButtonClicked), for: .touchUpInside)
+    }
+    
+    // 회원가입 버튼 클릭했을 때
+    @objc private func signupButtonClicked() {
+        
     }
     
     private func setTextFieldAction() {
@@ -31,19 +37,19 @@ class SignUpViewController: UIViewController {
     }
 
     @objc private func emailTextFieldChanged() {    // 이메일 검증
-        
+        validationViewModel.inputEmailText.text = mainView.emailTextField.text!
     }
     @objc private func passwordTextFieldChanged() { // 비밀번호 검증
-        
+        validationViewModel.inputPasswordText.text = mainView.passwordTextField.text!
     }
     @objc private func nicknameTextFieldChanged() { // 닉네임 검증
-        
+        validationViewModel.inputNicknameText.text = mainView.nicknameTextField.text!
     }
     @objc private func locationTextFieldChanged() { // 위치 검증
-        
+        validationViewModel.inputLoctionText.text = mainView.locationTextField.text!
     }
     @objc private func recommendCodeTextFieldChanged() {    // 추천코드 검증
-        
+        validationViewModel.inputRecommendationCodeText.text = mainView.recommendCodeTextField.text!
     }
 }
 
